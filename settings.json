@@ -1,0 +1,84 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "One Monokai",
+    "editor.formatOnSave": true,
+    "editor.suggestSelection": "first",
+    "omnisharp.defaultLaunchSolution": "",
+    "csharpfixformat.style.enabled": true,
+    "csharpfixformat.style.newline.atEnd": true,
+    "csharp.format.enable": false,
+    "window.zoomLevel": 0,
+    "javascript.format.enable": true,
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: LLVM, UseTab: Never, IndentWidth: 4, TabWidth: 4, BreakBeforeBraces: Attach, AllowShortIfStatementsOnASingleLine: false, IndentCaseLabels: false, ColumnLimit: 0, AccessModifierOffset: -4 }",
+    "C_Cpp.updateChannel": "Insiders",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "python.analysis.diagnosticPublishDelay": 200,
+    "python.languageServer": "Pylance",
+    "editor.tokenColorCustomizations": {
+        "comments": "#8a7b26"
+    },
+    "remote.SSH.remotePlatform": {
+        "192.168.11.194": "linux"
+    },
+    "files.associations": {
+        "*.tpp": "cpp",
+        "*.h.in": "plaintext",
+        "*.hpp.in": "plaintext"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "editor.semanticTokenColorCustomizations": {
+        // "[One Monokai]": {
+        //     "rules": {
+        //         "function": {
+        //             "foreground": "#ff0000",
+        //             "fontStyle": "italic bold underline"
+        //         },
+        //     }
+        // },
+        "rules": {
+            "property": {
+                "foreground": "#709497",
+                "fontStyle": "bold"
+            },
+            "variable.global": {
+                "foreground": "#bfc482",
+                "fontStyle": "bold"
+            },
+            "referenceType": {
+                "foreground": "#e0aee2",
+                //"fontStyle": "italic bold underline"
+            },
+            "method": {
+                "foreground": "#a5725a",
+                "fontStyle": "italic bold"
+            },
+            "variable": {
+                "foreground": "#dac5b2",
+                "fontStyle": ""
+            },
+            "property.static": {
+                "foreground": "#c96b6b",
+                "fontStyle": "italic bold"
+            },
+            "member.static": {
+                "foreground": "#c98d6b",
+                "fontStyle": "italic bold"
+            },
+            "namespace": {
+                "foreground": "#8b6c91",
+                "fontStyle": "italic bold"
+            },
+            "templateType": {
+                "foreground": "#80a9c0",
+                "fontStyle": "italic bold"
+            }
+        }
+    },
+    "cmake.configureOnOpen": true
+    /// test
+}
